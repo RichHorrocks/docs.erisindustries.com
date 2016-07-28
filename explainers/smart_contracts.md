@@ -69,7 +69,7 @@ While it is true that it is a relatively straight-forward problem to verify a sc
 
 Another problem is that scripts can read top level environment variables, and run differently on a different version of their language; therefore they can have differing **outcomes** depending on what the environment variables of the Operating System are or what version of the language is "running" (or compiling) the language.
 
-What this means is that when a computer script is ran it can be told by the operating system "how" it should run in some instances and in other instances various versions of a language will operate differently. As a result of this script makers have an ability to make their scripts run differently on different versions of the language.
+What this means is that when a computer script is run it can be told by the operating system "how" it should run in some instances and in other instances various versions of a language will operate differently. As a result of this script makers have an ability to make their scripts run differently on different versions of the language.
 
 The execution environment in which the script runs is important because the same script can run different ways depending on its environment. This is important to understand because even if you can verify that the script a machine is running is the same script that was produced by a script maker, what you are *really* trying to verify is the predictability of what its **doing** (not only what its numbers, meaning its code, is).
 
